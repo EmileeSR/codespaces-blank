@@ -41,3 +41,19 @@ body {
 .message {
     font-size: 36px; 
 }
+
+img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+   
+}
+
+@media (max-width: 600px) {
+    input.weather, button {
+        width: 80%;
+    }
+}
