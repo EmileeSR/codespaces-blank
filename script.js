@@ -1,7 +1,7 @@
 console.log("hello")
 
 let message = document.querySelector(".message");
-
+let x = document.querySelector(".x");
 
 let height = document.querySelector(".height")
 console.log(height);
@@ -35,6 +35,8 @@ quiz.onclick = function(){
 
     if(height==="tall" && animal==="dog"){
         message.innerHTML="Dipper";
-        console.log("Dipper")
+        console.log("Dipper");
+        x.src="dipper.jpg"
+
     }
 };
