@@ -19,18 +19,21 @@ quiz.onclick = function(){
 
     if(height==="short" && animal==="pig"){
         message.innerHTML="Mabel";
-        console.log("Mabel")
+        console.log("Mabel");
+          x.src="mabel.jpg"
         
     }
 
     if (height==="short" && animal==="dog"){
         message.innerHTML="Gideon";
-        console.log("Gideon")
+        console.log("Gideon");
+           x.src="wendy.jpg"
     }
 
     if(height==="tall" && animal==="pig"){
         message.innerHTML="Wendy";
-        console.log("Wendy")
+        console.log("Wendy");
+        x.src="wendy.jpg"
     }
 
     if(height==="tall" && animal==="dog"){
