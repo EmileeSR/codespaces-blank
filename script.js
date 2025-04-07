@@ -27,7 +27,7 @@ quiz.onclick = function(){
     if (height==="short" && animal==="dog"){
         message.innerHTML="Gideon";
         console.log("Gideon");
-           x.src="wendy.jpg"
+           x.src="gideon.jpg"
     }
 
     if(height==="tall" && animal==="pig"){
