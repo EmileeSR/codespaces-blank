@@ -52,8 +52,6 @@ img {
    
 }
 
-@media (max-width: 600px) {
-    input.weather, button {
-        width: 80%;
-    }
+@media screen and (max-width: 900px) {
+   
 }
